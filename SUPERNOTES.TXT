@@ -15,6 +15,23 @@ What is Artifactory?
         Version
             6.X
 
+DEVOPS - https://www.youtube.com/watch?v=-VaVmb_UOC8
+
+What is Artifactory?
+======================================
+        Repo managment tool
+            Binary lib
+            Packages
+        From JFROG
+        Written in - JAVA
+        Release
+            Community Edition - Free - Open Source
+            Professional Edition - PAID 
+            Enterrpise Edition  - PAID 
+            Cloud Based   - PAID 
+        Version
+            6.X
+
 Architecture of Artifactory
         WEB LAYER - APACHE
         APP LAYER - TOMCAT
@@ -343,18 +360,49 @@ Maven Repo
                 SNAPSHOT
         Remote
         Virtual
+====================================================
+How to UPLOAD?      VIA MAVEN
+-------------------------------'
+Step 1 - Install JDK and Set JAVA_HOME
+Step 2 - Install Maven and Set C:\tools\maven\bin path in PATH.
+Step 3 - Create intelx and intely project
+Step 4 - Modify pom.xml with Repo location
+https://github.com/devops-school/helloworld-java-maven
+Step 5 - Modify Setting.xml(C:\tools\maven\conf) wtIh Access - 
+https://github.com/devops-school/helloworld-java-maven
+Step 6 - mvn deploy
+
+PROJECT 1 - intelx
+mvn archetype:generate
+-DgroupId=com.intel.software
+-DartifactId=intelx
+-DarchetypeArtifactId=maven-archetype-quickstart
+-DinteractiveMode=false
+
+mvn archetype:generate -DgroupId=com.intel.software -DartifactId=intelx -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+
+PROJECT 2 - intely
+mvn archetype:generate
+-DgroupId=com.intel.software
+-DartifactId=intely
+-DarchetypeArtifactId=maven-archetype-quickstart
+-DinteractiveMode=false
+
+mvn archetype:generate -DgroupId=com.intel.software -DartifactId=intely -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+How to Download?    VIA MAVEN
+
+
+
+
+
+
+
 
 
 Upgrade from 5.X to 6.X
 =============================
-
-
-
-
-
-
-
-
 
 EXPECTATIONS
 =======================================
@@ -363,3 +411,6 @@ HA Installation and Setup
 Log Analsys
 Artifact storage
 Clean up policies
+
+How to enforce Specific java in maven
+https://www.mkyong.com/maven/how-to-tell-maven-to-use-java-8/
