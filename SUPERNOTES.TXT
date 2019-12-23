@@ -178,7 +178,7 @@ How to install Artifactory?
                 http://bit.ly/2sShpmo
 
 
-
+AMI - RHEL-7.5_HVM_GA-20180322-x86_64-1-Hourly2-GP2 (ami-5b673c34)
 
 
 
