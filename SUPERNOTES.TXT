@@ -173,21 +173,37 @@ JIRA - Git -> SonarQube -> JUNIT -> Artifactory -> Ansible -> Sel -> Jacoco
 
 How to install Artifactory?
         PRE - OpenJDK11
-
+        $ sudo yum install java-11-openjdk-devel
 
                 http://bit.ly/2sShpmo
 
 
 AMI - RHEL-7.5_HVM_GA-20180322-x86_64-1-Hourly2-GP2 (ami-5b673c34)
+=============================================
 
+RAJESH - 13.126.112.161
+ec2-user
 
+sudo -s
+cd /opt/
+yum install unzip
+yum install wget
+Download url 
+https://akamai.bintray.com/9e/9ea5f073600c1fc63d05c2030732ea9b4c41110a7deb1264937bf0052056a091?__gda__=exp=1577080253~hmac=95c4691e0fa67694a62ee13e248a402de0160c6c9485ceaaf5d26712f02191e0&response-content-disposition=attachment%3Bfilename%3D%22jfrog-artifactory-pro-6.16.0.zip%22&response-content-type=application%2Foctet-stream&requestInfo=U2FsdGVkX18qNTR_5TZs8qprlgu3gg3dFLjO5UkjGWPrSeY-iAWD9lPmX8PgqMhDtSUvBj11tOn-LGX51OmkIaPk1_WOMQwCtIpyqOGvzOiXEf_xnapXghdKUBcQLrPfqMdR6x3OMRqefjSBjWcgP76wg7rb4rd50fSbiLaK3u0HBR_GwaY9Bk677b_rE6LvtdEwLwMt7f8Z9I0oosEj3056hEMZGVZupOlZe_kbFYLZ6lmsiqKEWDjFhScX-8pdiluOeXS-mQJmqZw5pF_5eg&response-X-Checksum-Sha1=e1016fda307746136a6cbe9c500e369cdcc2cd2c&response-X-Checksum-Sha2=9ea5f073600c1fc63d05c2030732ea9b4c41110a7deb1264937bf0052056a091
+mv XXXX art.zip
+unzip art.zip
 
+cd /opt/artifactory-pro-6.16.0/bin
+./artifactory.sh
+http://13.126.112.161:8081/
+admin / password
 
-
-
-
-
-
+============How to become Good Arrtifactory Admin?===================
+Linux Administration
+Tomcat Admin
+Apache Admin
+MySql Admini
+JAVA TRACKING
 
 
 
