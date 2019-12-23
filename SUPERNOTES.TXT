@@ -1,0 +1,217 @@
+What is Artifactory?
+======================================
+        Repo managment tool
+            Binary lib
+            Packages
+        From JFROG
+        Written in - JAVA
+        Release
+            Community Edition - Free - Open Source
+            Professional Edition - PAID 
+            Enterrpise Edition  - PAID 
+            Cloud Based   - PAID 
+        Version
+            6.X
+
+Architecture of Artifactory
+        WEB LAYER - APACHE
+        APP LAYER - TOMCAT
+        DB LAYER - ALL RDBMS 
+                    DERBY (Default)
+                    MYSQL
+                    ORACLE
+                    MSSQL
+                    PG
+
+        FILE STORE
+                    FILE SYSTEM (OBJECT STORAGE)
+                    file-system (DEFAULT)
+                    cache-fs
+                    full-db
+                    full-db-direct
+                    s3
+                    google-storage
+                    double-shards
+                    redundant-shards
+                    cluster-file-system
+                    cluster-s3
+                    cluster-google-storage
+                    cluster-azure-blob-storage
+
+
+                    DATA BASE - Not Recommended
+       OBJECT STORAGE - Using
+                    SHA1 --> SHA256
+        ENCODE - 
+                    CHECKSUM | MD5 
+    
+WHY DO WE NEED IT?
+        To Store the artifact
+        Standard Process and Directory Layout
+        Saving time
+        Integrity and Durability the package
+        Availability of the packages
+        Security
+        Enforces for Standard Process
+        Maintenance & Cleanup 
+        Schedule the maintenance
+        Backup
+        Mirror
+        Agile
+        Shorter Release
+        Quality
+        Time
+
+Where it stands in SDLC?
+====================================
+Prod - IntelX
+Mgr - MgrX
+----------------
+DevOps
+        Every Commit should be going to Prod
+        Quality REDEFINED
+                ---------
+        Cost Reduction
+    
+Architect ->    JIRA - Confluence
+Dev - 10 -
+            Code Integ - GITLAB
+            Code Ana - 
+                    PEER Code - GITLAB
+                    Static Code Review - SonarQube
+            Build managenent
+                    Maven
+                    Gradle
+                    mSbuild
+            Unit test
+                    Junit - Nunit
+            Packaging managment
+                    APP
+                        JAR - WAR - EAR - TAR - ZIP - pYP - RB - NUGET
+                    SYSTEM
+                        EXE
+                        RPM
+                        APK
+                        DMG
+                        MSI
+====================================================================
+====================================================================
+Bower
+Boost your front end development by hosting your own Bower components and proxying the Bower registry in Artifactory.
+Chef
+Enhance your capabilities for configuration management with Chef using all the benefits of a repository manager.
+CocoaPods
+Speed up development with Xcode and CocoaPods with fully fledged CocoaPods repositories.
+Conan
+Artifactory is the only secure, private repository for C/C++ packages with fine-grained access control.
+Conda
+Artifactory natively supports Conda repositories for Python, R, Ruby, Lua, Scala, Java, JavaScript, C/ C++, FORTRAN.
+CRAN
+Deploy and resolve CRAN packages for the R language using dedicated CRAN repositories.
+Debian
+Host and provision Debian packages complete with GPG signatures.
+Docker
+Host your own secure private Docker registries and proxy external Docker registries such as Docker Hub.
+Git LFS
+Optimize your workflow when working with large media files and other binary resources.
+Go
+Build Go projects while resolving dependencies through Artifactory, and then publish the resulting Go packages into a secure, private Go registry
+Helm
+Manage your Helm Charts in Artifactory and gain control over deployments to your Kubernetes cluster.
+Maven
+Artifactory is both a source for Maven artifacts needed for a build, and a target to deploy artifacts generated in the build process.
+npm
+Host your own node.js packages, and proxy remote npm repositories like npmjs.org through Artifactory.
+NuGet
+Host and proxy NuGet packages in Artifactory, and pull libraries from Artifactory into your various Visual Studio .NET applications.
+Opkg
+Optimize your work with OpenWrt using Opkg repositories. Proxy the official OpenWrt repository and cache remote .ipk files.
+P2
+Proxy and host all your Eclipse plugins via an Artifactory P2 repository, allowing users to have a single-access-point for all Eclipse updates.
+PHP Composer
+Provision Composer packages from Artifactory to the Composer command line tool, and access Packagist and other remote Composer metadata repositories.
+Puppet
+Configuration management meets repository management with Puppet repositories in Artifactory.
+PyPI
+Host and proxy PyPI distributions with full support for pip.
+RPM
+Distribute RPMs directly from your Artifactory server, acting as fully-featured YUM repository.
+RubyGems
+Use Artifactory to host your own gems and proxy remote gem repositories like rubygems.org.
+SBT
+Resolve dependencies from and deploy build output to SBT repositories when running SBT builds.
+Vagrant
+Securely host your Vagrant boxes in local repositories.
+VCS
+Consume source files packaged as binaries.    
+====================================================================
+Maven -> Jars
+Git LFS -> files
+Docker -> Images
+Puppet -> module
+Helm -> Charts
+NuGet -> Nupkg
+RPM -> rpm
+====================================================================
+            Artifact management tool - Artifactory - Nexus - Archiva
+            Deploy 2 QA - INT - PRE Prod
+            ----------------------------------
+            Ansible - Puppet - Chef
+            Octopus Deloy - UDeploy
+
+            AT - --- QTP - Selenium
+
+            Code Coverage - Jacoco - Cobertua - Nocover- BullSeye
+==============================================================================================
+PLAN -> Code -> ANa -> BUild -> UT -> Dep2Repo -> Dep2QA -> AT ->> CC
+--------------------------------------------------------------------------
+JIRA - Git -> SonarQube -> JUNIT -> Artifactory -> Ansible -> Sel -> Jacoco
+================================================================================
+                        INTG between -TEAM - PROCESS - TEAM
+==============================================================================
+                            TEAMCITY - JENKNS - 
+
+How to install Artifactory?
+        PRE - OpenJDK11
+
+
+                http://bit.ly/2sShpmo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Upgrade from 5.X to 6.X
+=============================
+
+
+
+
+
+
+
+
+
+EXPECTATIONS
+=======================================
+Docker 
+HA Installation and Setup
+Log Analsys
+Artifact storage
+Clean up policies
